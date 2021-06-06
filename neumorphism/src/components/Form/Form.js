@@ -14,14 +14,14 @@ import useForm from './../../hooks/useForm';
 import validate from './../../helpers/validationInfo';
 
 const Form = () => {
-	const {handleChange, handleSubmit, values, errors} = useForm(validate);
+	const {handleChange, handleSubmit,handleErrors, values, errors} = useForm(validate);
 
 	return (
 		<StyledForm onSubmit={handleSubmit}>
 			<Row>
 				<label htmlFor="firstName"><span><i className="far fa-user"></i></span></label>
 				<Input type="text" id="firstName" placeholder="First Name" name="firstName" value={values.firstName}
-				       changeHandler={handleChange} />
+				       changeHandler={handleChange} onBlur={handleErrors}/>
 			</Row>
 			{errors.firstName && <ErrorContainer name={errors.firstName}/>}
 			<Row>
@@ -37,9 +37,9 @@ const Form = () => {
 			</Row>
 			{errors.email && <ErrorContainer name={errors.email}/>}
 			<Row>
-				<RadioGenderToggle changeHandler={handleChange}/>
+				<RadioGenderToggle changeHandler={handleChange} checked={values.gender} />
 			</Row>
-			{errors.gender && <ErrorContainer name={errors.gender}/>}
+			{errors.gender && <ErrorContainer name={errors.gender} />}
 			<Row>
 				{lists}
 			</Row>

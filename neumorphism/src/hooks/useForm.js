@@ -10,7 +10,6 @@ const useForm = (validate) => {
 	const [values, setValues] = useState(initial);
 	const [errors, setErrors] = useState({});
 
-
 	const handleChange = e => {
 		e.preventDefault();
 		const {name, value} = e.target;
@@ -19,6 +18,10 @@ const useForm = (validate) => {
 			...values,
 			[name]: value
 		});
+
+		if(values[name].length !== 0) {
+			setErrors(validate(values))
+		}
 	};
 
 	const handleSubmit = e => {
@@ -26,9 +29,9 @@ const useForm = (validate) => {
 		setErrors(validate(values));
 	};
 
-	const useEffect = (() => {
+	useEffect(() => {
 		setErrors(validate(values));
-	}, [values]);
+	}, [(values)]);
 
 
 	return {handleChange, handleSubmit, values, errors};

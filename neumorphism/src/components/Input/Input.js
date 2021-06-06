@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React, {useContext, useState} from 'react';
 
 import StyledInput from './StyledInput';
 import {ToggleThemeContext} from '../../context/ToggleThemeContext';
@@ -8,7 +8,7 @@ const Input = (props) => {
 
 	return (
 		<StyledInput placeholder={props.placeholder} darkTheme={darkTheme} name={props.name} value={props.value}
-		             onChange={props.changeHandler}/>
+		             onChange={props.changeHandler} onBlur={props.onBlur}/>
 	);
 };
 

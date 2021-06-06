@@ -3,7 +3,8 @@ import React, {useState} from 'react';
 const useCheckbox = () => {
 	const [checked, setIsChecked] = useState(false);
 
-	const checkedHandler = () => {
+	const checkedHandler = (e) => {
+		e.preventDefault();
 		return !checked ? setIsChecked(true) : setIsChecked(false);
 	}
 
