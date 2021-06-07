@@ -1,6 +1,6 @@
 import {v4 as uuidv4} from 'uuid';
 
-const hobbyList = [
+const dataListForm = [
 	{text: 'Football', name: 'sport', class: 'fas fa-futbol', id: uuidv4()},
 	{text: 'Tenis', name: 'sport', class: 'fas fa-table-tennis', id: uuidv4()},
 	{text: 'Golf', name: 'sport', class: 'fas fa-golf-ball', id: uuidv4()},
@@ -16,4 +16,9 @@ const hobbyList = [
 	{text: 'Lazy', name: 'sport', class: 'fas fa-skull-crossbones', id: uuidv4()},
 ];
 
-export default hobbyList;
+const genderList = [
+	{name: 'gender', text: 'Female', id: uuidv4()},
+	{name: 'gender', text: 'Male', id: uuidv4()},
+]
+
+export {dataListForm, genderList};

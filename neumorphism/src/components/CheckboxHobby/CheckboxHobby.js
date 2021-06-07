@@ -8,7 +8,7 @@ const CheckboxHobby = (props) => {
 	const [checked, checkedHandler] = useCheckbox();
 
 	return (
-		<StyledCheckboxHobby key={props.id}>
+		<StyledCheckboxHobby key={props.id + checked}>
 			<input type="checkbox" name={props.name} id={props.text} checked={checked} onChange={checkedHandler}/>
 			<label htmlFor={props.text}>
 				<span className={props.class}>

@@ -1,14 +1,27 @@
 import React from 'react';
 import StyledRadioGenderToggle from './StyledRadioGenderToggle';
+import {genderList} from '../../data/dataListForm';
+import { v4 as uuidv4 } from 'uuid';
+import useCheckbox from '../../hooks/useCheckbox';
 
 const RadioGenderToggle = (props) => {
+	const [checked, checkedHandler] = useCheckbox();
+	const list = genderList.map((item) => {
+		return(
+			<StyledRadioGenderToggle key={item.id + checked}>
+				<input onChange={e => {
+					checkedHandler(e);
+					props.changeHandler(e);
+				}} checked={checked} type="radio" id={item.text} name={item.name}/>
+				<label htmlFor={item.text}>{item.text}</label>
+			</StyledRadioGenderToggle>
+		)
+	});
+
 	return(
-		<StyledRadioGenderToggle>
-			<input onChange={props.changeHandler} type="radio" id='female' name='gender'/>
-			<label htmlFor='female'>Female</label>
-			<input onChange={props.changeHandler}  type="radio" id='male' name='gender'/>
-			<label htmlFor='male'>Male</label>
-		</StyledRadioGenderToggle>
+		<>
+			{list}
+		</>
 	)
 }
 

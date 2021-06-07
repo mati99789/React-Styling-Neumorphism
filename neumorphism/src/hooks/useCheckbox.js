@@ -5,6 +5,7 @@ const useCheckbox = () => {
 
 	const checkedHandler = (e) => {
 		e.preventDefault();
+		console.log(e.target);
 		return !checked ? setIsChecked(true) : setIsChecked(false);
 	}
 
