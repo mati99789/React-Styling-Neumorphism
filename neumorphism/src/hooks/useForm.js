@@ -6,6 +6,7 @@ const useForm = (validate) => {
 		lastName: '',
 		email: '',
 		gender: false,
+		checkHobby: 0,
 	};
 	const [values, setValues] = useState(initial);
 	const [errors, setErrors] = useState({});

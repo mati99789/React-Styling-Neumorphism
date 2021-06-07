@@ -18,5 +18,10 @@ export default function validateInfo(values) {
 	if(!values.gender) {
 		errors.gender = 'Please choose gender! '
 	}
+
+	if(values.checkHobby < 3) {
+		errors.hobbyLimit = 'Please choose at least 3 hobbys'
+	}
+
 	return errors;
 }

@@ -1,7 +1,5 @@
-import React from 'react';
+import React, {useState, useContext} from 'react';
 import StyledCheckboxHobby from './StyledCheckboxHobby';
-
-
 import useCheckbox from './../../hooks/useCheckbox';
 
 const CheckboxHobby = (props) => {

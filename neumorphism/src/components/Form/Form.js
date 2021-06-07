@@ -7,7 +7,7 @@ import ProgressBar from '../PregressBar/ProgressBar';
 import Button from '../Button/Button';
 import ErrorContainer from '../ErrorContainer/Errors';
 
-import lists from '../../helpers/generateHobbyList';
+import generateHobbyList from '../../helpers/generateHobbyList';
 import StyledForm from './StyledForm';
 
 import useForm from './../../hooks/useForm';
@@ -41,8 +41,9 @@ const Form = () => {
 			</Row>
 			{errors.gender && <ErrorContainer name={errors.gender} />}
 			<Row>
-				{lists}
+				{generateHobbyList()}
 			</Row>
+			{errors.hobbyLimit && <ErrorContainer name={errors.hobbyLimit} />}
 			<ProgressBar/>
 			<Button type="submit">Submit</Button>
 		</StyledForm>
