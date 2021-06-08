@@ -20,8 +20,8 @@ const StyledToggleBackground = styled.div`
 
 	div.ball {
 		background: #fff;
-		height: 32px;
-		width: 32px;
+		height: 40px;
+		width: 40px;
 		position: absolute;
 		border-radius: 50%;
 		left: 0;
@@ -32,7 +32,7 @@ const StyledToggleBackground = styled.div`
 	}
 	
 	.checkbox:checked + label .ball{
-		transform: translateX(29px);
+		transform: translateX(35px);
 	}
 	
 `;

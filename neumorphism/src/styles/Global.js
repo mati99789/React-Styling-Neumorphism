@@ -3,7 +3,7 @@ import {createGlobalStyle} from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 	html {
-		font-size: 10px;
+		font-size: 16px;
 	}
   
   body {

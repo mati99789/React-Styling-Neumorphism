@@ -16,7 +16,6 @@ const StyledCheckboxHobby = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
     border-radius: 14px;
     background: #e0e0e0;
     box-shadow:  8px 8px 13px #929292,
