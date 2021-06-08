@@ -1,10 +1,12 @@
 import React from 'react';
+import StyledFormSucess from './StyledFormSucess';
 
-const FormSucess = () => {
+const FormSucess = (props) => {
 	return (
-		<div>
-			<h2>DONE</h2>
-		</div>
+		<StyledFormSucess>
+			<h2><span className="fas fa-check"></span> Thank you for filling out the form!</h2>
+			<button onClick={props.onBack}>Back</button>
+		</StyledFormSucess>
 	);
 };
 

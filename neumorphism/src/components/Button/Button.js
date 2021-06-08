@@ -4,7 +4,7 @@ import StyledButton from './StyledButton';
 
 const Button = (props) => {
 	return (
-		<StyledButton type="submit">{props.children}</StyledButton>
+		<StyledButton disabled={props.disabled} type="submit">{props.children}</StyledButton>
 	);
 };
 

@@ -15,6 +15,12 @@ const StyledButton = styled.button`
     box-shadow: inset 7px 7px 14px #3c82aa,
       inset -7px -7px 14px #6ff1ff;
 	}
+	
+	&:disabled {
+    background: #55b9f3;
+    box-shadow:  -9px -9px 18px #3c82aa,
+    9px 9px 18px #6ff1ff;
+	}
 `;
 
 export default StyledButton;

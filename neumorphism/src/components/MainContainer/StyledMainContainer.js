@@ -5,6 +5,7 @@ const StyledMainContainer = styled.main`
   color: #001F3F;
 	${props => props.darkTheme && css`
 		background-color: #9d9d9d;
+		height: 100vh;
 	`}
 `;
 

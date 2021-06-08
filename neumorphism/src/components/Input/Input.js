@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext} from 'react';
 
 import StyledInput from './StyledInput';
 import {ToggleThemeContext} from '../../context/ToggleThemeContext';
