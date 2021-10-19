@@ -1,4 +1,4 @@
-# Redux calendar
+# Neumorphism with React and styled components
 This is a basic form "Neumorphism" to practice with styled components.
 
 **Main features**:
