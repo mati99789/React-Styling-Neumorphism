@@ -1,6 +1,6 @@
 import React from 'react';
 import StyledCheckboxHobby from './StyledCheckboxHobby';
-import useCheckbox from './../../hooks/useCheckbox';
+import useCheckbox from '../../hooks/useCheckbox';
 
 const CheckboxHobby = (props) => {
 	const [checked, checkedHandler] = useCheckbox();

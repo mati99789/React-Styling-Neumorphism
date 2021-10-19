@@ -10,8 +10,8 @@ import ErrorContainer from '../ErrorContainer/Errors';
 import generateHobbyList from '../../helpers/generateHobbyList';
 import StyledForm from './StyledForm';
 
-import useForm from './../../hooks/useForm';
-import validate from './../../helpers/validationInfo';
+import useForm from '../../hooks/useForm';
+import validate from '../../helpers/validationInfo';
 import FormSucess from '../FormSuccess/FormSucess';
 import useFormSucess from '../../hooks/useFormSucess';
 

@@ -3,7 +3,7 @@ import React from 'react';
 import ToggleBackground from '../ToggleBackground/ToggleBackground';
 import FormContainer from '../FormContainer/FormContainer';
 import Form from '../Form/Form';
-import Title from './../Title/Title';
+import Title from '../Title/Title';
 
 import useToggleTheme from '../../hooks/useToggleTheme';
 import StyledMainContainer from './StyledMainContainer';

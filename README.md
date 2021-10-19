@@ -1,36 +1,49 @@
-# Neumorphism
+# Redux calendar
+This is a basic form "Neumorphism" to practice with styled components.
 
-Neumorphism to pewien trend w projektowaniu, który opiera się na odpowiednim wykorzystaniu cieni.
-
-W tym projekcie Twoim zadaniem będzie utworzeniu kilku komponentów zgodnych z tym trendem wykorzystując Styled Components. Na ich podstawie zbudujesz rozbudowany formularz. Od Ciebie będzie zależeć jakie elementy będą miały się w nim pojawić.
-
-Zanim przejdziesz do implementowania to zapoznaj się z kilkoma artykułami na temat nowego trendu:
-- https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6 (jeśli wykorzystałeś darmowy limit to wystarczy, że otworzyć tą stronę w oknie "imcognito")
-- https://www.justinmind.com/blog/neumorphism-ui/
-- https://opengeekslab.com/blog/neumorphism-the-next-big-thing-ui-design/
-
-## Komponenty
-
-Po zapoznaniu się z linkami podanymi wyżej wiesz już na czym polega Neumorphism. Jeśli potrzebujesz dodatkowych wskazówek to zachęcam Cię do [skorzystania z generatora](https://neumorphism.io/). Możesz również inspirować się [przykładami innych](https://bashooka.com/inspiration/neumorphism-ui-design-examples/).
-
-Jeśli masz własną koncepcję komponentów to nie widzę przeszkód, abyś z nich skorzystał. Jeśli nie to możesz się wzorować z poniższą grafiką od [Emy Lascan](https://dribbble.com/shots/9527558-Freebie-Neumorphic-UX-UI-Elements).
-
-![](./example.png)
+**Main features**:
+- React
+- Styled components
 
 
-## Formularz
+&nbsp;
 
-W momencie kiedy masz już gotowe komponenty możesz zbudować swój formularz.
-
-Pamiętaj, aby prezentował on w pełni Twoje możliwości np.:
-- możesz go podzielić na 3 etapy (ekrany), po których można wygodnie się przemieszczać
-- lista rozwijana jest implementowana przez specjalne rozwiązanie innne niż `select`
-- elementy typu `chceckbox` czy `radio` są animowane
-- poziom wypełania formularza jest prezentowane przez pasek postępu
-- użytkownik po wprowadzeniu błędnych danych jest natychmiastowo o tym informowany
+## 💡 Technologies
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=%23F7DF1E)
+![Styled-Components](https://img.shields.io/badge/styledComponents-%23323330.svg?style=for-the-badge&logo=styledComponents&logoColor=%23F7DF1E)
 
 
-Jestem pewny, że ten porojekt mocno zainteresuje Twojego przyszłego pracodawcę!
+&nbsp;
+
+## 💿 Installation
+
+The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`, and then `npm start`</br>
 
 
-PS. Konfigurację środowiska robisz według własnego uznania.
+
+
+&nbsp;
+
+
+## 💭 Conclusions for future projects
+
+I would like to add more beautiful styles for form.
+
+
+&nbsp;
+
+## 🙋‍♂️ Feel free to contact me
+Hi, my name is Matteus and I'm a mechanical engineer who wants to become a front end developer in the near future. Thank You for taking the time to view my GitHub Profile.
+
+
+<p align="center">
+	<a href="https://github.com/mati99789"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+	<a href="https://www.linkedin.com/in/matteus-urbaniak-133001117/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.facebook.com/matteus.urbaniak/"><img alt="facebook" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/facebook-new.png"/></a>
+    <a href="mailto:matteus.urbaniak@hotmail.com"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/email.png"/></a>
+&nbsp;
+
+## 👏 Thanks / Special thanks / Credits
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
